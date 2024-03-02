@@ -1,0 +1,173 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar h3 {
+    margin: 0;
+}
+
+.navbar nav {
+    display: flex;
+}
+
+.navbar a, .dropbtn {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.navbar a:hover, .dropbtn:hover {
+    background-color: #555;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn::after {
+    content: "\25BC"; /* Unicode character for down arrow */
+    margin-left: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.book-now {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.book-now:hover {
+    background-color: #45a049;
+}
+
+/* Slider Styles */
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.shapesss {
+    display: flex;
+}
+
+.shape{
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100vw; /* Added */
+    height: 100vh; /* Added */
+  /* Example color */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shape2{
+   background-image: url('London.jpg');
+}
+.shape3{
+    background-image: url('London2.jpg');
+}
+.shape1{
+    background-image: url('London3.jpg');
+}
+
+.shape1 h3 {
+    margin: 0 0 10px;
+}
+
+.shape1 h1 {
+    margin: 0 0 15px;
+}
+
+.shape1 p {
+    margin: 0 0 20px;
+}
+
+.shape1 button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.shape1 button:hover {
+    background-color: #45a049;
+}
+
+/* Navigation Styles */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navigation button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.navigation button:hover {
+    background-color: #555;
+}
+
+
+.shape{
+text-align: center;
+
+}
