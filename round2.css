@@ -169,5 +169,22 @@ body {
 
 .shape{
 text-align: center;
+font-weight: bolder;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: white;
+text-shadow: 5px 5px 16px rgba(0, 0, 0, 0.659);
+}
+.shape h1{
+    font-size: 5rem;
 
+}
+.shape p{
+    font-size: 1.4rem;
+
+}
+.shape h3{
+    font-size: 2rem;
 }
